@@ -1,5 +1,6 @@
 {
     "imports": {
+        "denodb": "https://deno.land/x/denodb/mod.ts",
         "oak": "https://deno.land/x/oak/mod.ts",
         "oak_graphql": "https://deno.land/x/oak_graphql/mod.ts"
     }
