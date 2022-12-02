@@ -1,7 +1,9 @@
 {
   "imports": {
+    "cors": "https://deno.land/x/cors@v1.2.2/mod.ts",
     "dataloader": "https://esm.sh/dataloader@2.0.0/index.js",
     "denodb": "https://deno.land/x/denodb/mod.ts",
+    "djwt": "https://deno.land/x/djwt@v2.2/mod.ts",
     "oak": "https://deno.land/x/oak/mod.ts",
     "oak_graphql": "https://deno.land/x/oak_graphql/mod.ts",
     "uuid": "https://deno.land/std@0.132.0/uuid/mod.ts"
