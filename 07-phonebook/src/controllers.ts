@@ -67,6 +67,7 @@ export const updateContact = async (contactId: string, contactData: any) => {
   return null;
 };
 
+// get all users by ids with single database call
 const batchGetUsersByIds = (ids: any) => {
   const userPromises = ids.map(getUser);
   const usersPromise = Promise.resolve(userPromises);
