@@ -1,0 +1,10 @@
+# scripts.yaml
+imap: import_map.json
+unstable: true
+allow:
+  - net
+scripts:
+  dev:
+    cmd: src/mod.ts
+    desc: "run graphql server in dev mode"
+    watch: true
