@@ -3,6 +3,9 @@ imap: import_map.json
 unstable: true
 allow:
   - net
+  - env
+envFile:
+  - .env
 scripts:
   dev:
     cmd: src/mod.ts
