@@ -1,7 +1,8 @@
 {
-    "imports": {
-        "denodb": "https://deno.land/x/denodb/mod.ts",
-        "oak": "https://deno.land/x/oak/mod.ts",
-        "oak_graphql": "https://deno.land/x/oak_graphql/mod.ts"
-    }
+  "imports": {
+    "denodb": "https://deno.land/x/denodb/mod.ts",
+    "oak": "https://deno.land/x/oak/mod.ts",
+    "oak_graphql": "https://deno.land/x/oak_graphql/mod.ts",
+    "uuid": "https://deno.land/std@0.132.0/uuid/mod.ts"
+  }
 }
