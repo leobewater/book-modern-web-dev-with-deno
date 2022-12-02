@@ -8,7 +8,7 @@ export const types = gql`
   type User {
     userId: String!
     name: String!
-    contacts: [Contact]!
+    contacts: [Contact]!  #contact in array
     email: String!
   }
 
